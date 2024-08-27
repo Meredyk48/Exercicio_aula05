@@ -19,6 +19,8 @@ header {
 
 .menucinza {
     color: #7D7987;
+    font-weight: 400;
+    
 }
 
 header h1 {
@@ -46,12 +48,12 @@ header nav ul li {
   display: flex;
   justify-content: space-between; /* Distribui os itens igualmente */
   list-style: none; /* Remove os marcadores da lista */
-  
+  transform: translateX(-200px);
   
 }
 
 .menu li {
-  margin: 0 10px; /* Espaçamento entre os itens */
+  margin-right: 30px; /* Espaçamento entre os itens */
 }
 
 .menu a {
@@ -137,6 +139,11 @@ p {
 .boldpreto {
     font-weight: bold;
     color: #000000;
+    
+}
+
+.semsublinhado {
+    text-decoration: none;
 }
 
 .content {
